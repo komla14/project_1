@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from django.urls import revers
 
 #ebat ti lox
+# by aslan
 
 class PublishedManager(models.Manager):
     def get_queryset(self):
