@@ -2,7 +2,7 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import revers
-# k;js gu;rahfs gafdighasg h;arsh iehg;uwe'i yfwefs f'iu g'iugE[G H E;IUGF [Iesyg k
+
 
 class PublishedManager(models.Manager):
     def get_queryset(self):
